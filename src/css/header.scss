@@ -1,0 +1,135 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes move {
+  from {color: transparent;}
+  to{color:aliceblue;}
+}
+
+header {
+  margin-bottom: 124px;
+  text-decoration: none;
+
+  .backgroundimg {
+    position: absolute;
+  }
+
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 10px;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    .leftSide {
+      font-size: x-large;
+      color: var(--color1);
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .rightSide {
+      text-transform: uppercase;
+      padding-right: 150px;
+
+      a {
+        text-decoration: none;
+        margin-top: auto;
+        margin-bottom: auto;
+        color: var(--color1);
+        cursor: pointer;
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .aaa {
+    .wecreate {
+      margin: 0;
+      margin-top: 300px;
+      // margin-left: 50px;
+      font-family: 'Raleway';
+      font-style: italic;
+      font-size: 130px;
+      position: relative;
+      color: aliceblue;
+      text-transform: uppercase;
+      animation-name: move;
+      animation-duration: 3s;
+      
+    }
+
+    .interiorsthatone {
+      font-family: 'Inter';
+      margin: 0;
+      margin-left: 50px;
+      font-weight: 500;
+      line-height: 100px;
+      font-size: 130px;
+      position: relative;
+      color: aliceblue;
+      text-transform: uppercase;
+      animation-name: move;
+      animation-duration: 3s;
+    }
+
+    .wantstolivein {
+      font-family: 'Inter';
+      margin: 0;
+      margin-left: 245px;
+      font-weight: 500;
+      font-size: 130px;
+      position: relative;
+      color: aliceblue;
+      text-transform: uppercase;
+      animation-name: move;
+      animation-duration: 3s;
+    }
+
+
+    .bbb {
+      display: flex;
+      position: relative;
+
+      .pdiv {
+        margin-top: 71px;
+        margin-left: 50px;
+        font-family: 'Inter';
+        line-height: 17px;
+        font-weight: 400;
+        font-size: 18px;
+        color: var(--color1);
+      }
+
+      .bottom_part {
+        cursor: context-menu;
+        text-transform: uppercase;
+        margin-right: 602px;
+        margin-top: 84px;
+
+        h3 {
+          color: var(--color1);
+          line-height: 6px;
+          margin: 0;
+          margin-top: 20px;
+        }
+
+        button {
+          height: 49px;
+          width: 49px;
+          border-color: transparent;
+          background-color: transparent;
+
+          svg {
+            cursor: pointer;
+            fill: var(--color1);
+          }
+        }
+      }
+    }
+  }
+}

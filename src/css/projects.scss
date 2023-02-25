@@ -1,0 +1,108 @@
+#projects {
+    margin-left: 50px;
+  
+    .top {
+      display: flex;
+      justify-content: space-between;
+  
+      h1 {
+        margin: 0;
+        width: 651px;
+        height: 153px;
+        left: 50px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 130px;
+        line-height: 153px;
+        text-transform: uppercase;
+        color: #353333;
+      }
+  
+      h3 {
+        margin: 0;
+        margin-right: 50px;
+        width: 87px;
+        height: 73px;
+        left: 1463px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 73px;
+        text-transform: uppercase;
+        color: #1E1E1F;
+      }
+  
+      .buttons {
+        button {
+          padding: 0;
+          margin-right: 15px;
+          background-color: transparent;
+          border-color: transparent;
+          margin-top: 35px;
+          cursor: pointer;
+        }
+      }
+    }
+  
+    .images {
+      display: flex;
+      margin-top: 30px;
+      margin-bottom: 130px;
+  
+      .important {
+        h1 {
+          padding-bottom: 20px;
+          border-bottom: 1px solid #aaaaaa;
+        }
+  
+        svg {
+          margin-top: 27px;
+          fill: #353333;
+          cursor: pointer;
+        }
+      }
+  
+      div {
+  
+        h1 {
+          margin: 20px 0 20px;
+          width: 360px;
+          left: 776px;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 60px;
+          line-height: 59px;
+          text-transform: uppercase;
+          color: #353333;
+        }
+  
+        span {
+          cursor: context-menu;
+          width: 172px;
+          height: 24px;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          display: flex;
+          align-items: flex-end;
+          text-align: center;
+          text-transform: uppercase;
+          color: #1E1E1F;
+          border: 1px solid #353333;
+          padding: 10px;
+          border-radius: 25px;
+        }
+      }
+  
+      .img2 {
+        margin-right: 100px;
+        margin-left: 100px;
+      }
+    }
+  
+  }

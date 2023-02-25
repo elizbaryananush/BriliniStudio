@@ -1,0 +1,83 @@
+#about {
+  text-decoration: none;
+  padding-left: 50px;
+  margin-bottom: 116px;
+
+  .text {
+    display: flex;
+    padding-top: 60px;
+
+    h1 {
+      margin: 0;
+      padding-right: 274px;
+      font-family: 'Raleway';
+      text-transform: uppercase;
+      font-weight: 600;
+      line-height: 152.62px;
+      font-size: 130px;
+      margin-bottom: 358px;
+    }
+
+    p {
+      margin: 0;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      width: 624px;
+      height: 455px;
+    }
+  }
+
+  .numbers {
+    display: flex;
+
+    img {
+      margin-right: 346px;
+    }
+
+    .grid {
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(207px, 2fr));
+      grid-template-rows: repeat(2, minmax(161px, 2fr));
+      gap: 30px 99px;
+    }
+
+    .player {
+      display: grid;
+      margin-bottom: 30px;
+
+      h1 {
+        margin: 0;
+        width: 115px;
+        height: 73px;
+        left: 776px;
+        top: 1622px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 73px;
+        text-transform: uppercase;
+      }
+
+      p {
+        margin: 0;
+        width: 206px;
+        height: 48px;
+        left: 777px;
+        top: 1705px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: flex-end;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
